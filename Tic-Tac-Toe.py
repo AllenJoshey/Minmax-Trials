@@ -1,4 +1,5 @@
 #Implementation of Tic-Tac-Toe using the Minimax algortihm without alpha beta pruning
+#Author: Allen Joshey/Challenjo
 
 import math
 import numpy as np
