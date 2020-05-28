@@ -1,6 +1,7 @@
-board=[['_','_','_'],['_','_','_'],['_','_','_']]
-inputval=-10;
+import numpy as np
 
+board=[['_','X','_'],['_','O','_'],['_','_','_']]
+inputval=-10;
 while(inputval!=10):
     read_val=input()
     if(read_val==0):
@@ -32,4 +33,13 @@ while(inputval!=10):
         print(board)
     elif(read_val>=9): 
         break;
-        
+
+def printboard(board):
+    matrix = np.array(board)
+    print(matrix)
+     
+     
+
+printboard(board)     
+
+          
